@@ -5,7 +5,6 @@ import { Navbar } from "./components/Navbar";
 import { MobileMenu } from "./components/MobileMenu";
 import { Home } from "./components/sections/Home";
 import { About } from "./components/sections/About";
-import { Projects } from "./components/sections/Projects";
 import { Projects2 } from "./components/sections/Projects2";
 import "./index.css";
 import { Contact } from "./components/sections/Contact";
@@ -67,11 +66,11 @@ const projects = [
   {
     id: 5,
     title: "EJFLIX - Twinkling Watermelon",
-    description: "A simple movie streaming application that shows the UI design of the EJflix app made in Photoshop.",
+    description:
+      "A simple movie streaming application that shows the UI design of the EJflix app made in Photoshop.",
     image: "/projects/project6.jpg",
     imageHD: "/projects/project6.png",
     tags: ["Photoshop", "UI Design", "Web Design"],
-
   },
 ];
 
