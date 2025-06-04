@@ -1,7 +1,6 @@
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
-import { RevealOnScroll } from "../RevealOnScroll";
 import { useState } from "react";
 
 export const Projects2 = ({
@@ -119,7 +118,7 @@ export const Projects2 = ({
             </div>
           )}
         </div>
-      
+
 
       {/* Simple Image Preview Modal */}
       {previewImage && (
