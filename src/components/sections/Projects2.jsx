@@ -40,9 +40,9 @@ export const Projects2 = ({
           <div
             className={`grid grid-cols-${cols} sm:grid-cols-2 lg:grid-cols-3 gap-8 p-8`}
           >
-            {projects.map((project) => (
+            {projects.map((project, index) => (
               <div
-                key={project.id}
+                key={index}
                 className="border border-white/10 group bg-black rounded-lg overflow-hidden shadow-xs"
               >
                 <div
@@ -134,7 +134,6 @@ export const Projects2 = ({
               className="max-w-full max-h-full object-contain rounded-lg"
               onClick={(e) => e.stopPropagation()}
             />
-
           </div>
         </div>
       )}
