@@ -29,7 +29,7 @@ export const Projects2 = ({
       id="projects"
       className="min-h-screen flex items-center justify-center py-20"
     >
-      <RevealOnScroll>
+
         <div className="container mx-auto max-w-5xl">
           <h2 className="text-center text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-purple-400 bg-clip-text text-transparent px-8">
             {title}
@@ -119,7 +119,7 @@ export const Projects2 = ({
             </div>
           )}
         </div>
-      </RevealOnScroll>
+      
 
       {/* Simple Image Preview Modal */}
       {previewImage && (
